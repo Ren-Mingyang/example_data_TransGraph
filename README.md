@@ -13,7 +13,7 @@ target.DAG.data: The target DAG and data.
    &emsp; &emsp; target.DAG.data$Theta.t: the target precision matrix;    
    &emsp; &emsp; target.DAG.data$noise: the n * p noise matrix;    
    &emsp; &emsp; target.DAG.data$noise.type: the type of noise.    
-   &emsp; &emsp; auxiliary.DAG.data: The auxiliary DAG and data. There are K=8 auxiliary domains with one parameter-informative DAG, two node-level structure-informative DAG (corresponding to two disjoint scale-free subgraphs in the target DAG, respectively), and five non-informative DAG.    
+auxiliary.DAG.data: The auxiliary DAG and data. There are K=8 auxiliary domains with one parameter-informative DAG, two node-level structure-informative DAG (corresponding to two disjoint scale-free subgraphs in the target DAG, respectively), and five non-informative DAG.    
   
 ## example.data.tensorGGM.RData
 
