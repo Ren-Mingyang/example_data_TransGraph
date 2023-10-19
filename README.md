@@ -17,7 +17,7 @@ target.DAG.data: The target DAG and data.
 auxiliary.DAG.data: The auxiliary DAG and data. There are K=8 auxiliary domains with one parameter-informative DAG, two node-level structure-informative DAG (corresponding to two disjoint scale-free subgraphs in the target DAG, respectively), and five non-informative DAG.    
   
 ## example.data.tensorGGM.RData
-Some example data for Transfer learning of tensor graphical models    
+Some example data for Transfer learning of tensor graphical models. See [arXiv link](https://arxiv.org/abs/2211.09391) for details.    
 
 A list including:    
 t.data: Tensor data in the target domain with n=50 and (p1,p2,p3)=(10,10,10).    
@@ -26,7 +26,7 @@ t.Omega.true.list: A list of the true precision matrices of all modes in the tar
 
 
 ## example.data.DAG.RData
-Some example data for Transfer learning of non-Gaussian DAG    
+Some example data for Transfer learning of non-Gaussian DAG. See [arXiv link](https://arxiv.org/abs/2310.10239) for details.         
 
 A list including:    
 target.DAG.data: The target DAG and data.    
@@ -41,7 +41,7 @@ target.DAG.data: The target DAG and data.
 auxiliary.DAG.data: The auxiliary DAG and data. There are K=8 auxiliary domains with one parameter-informative DAG, two node-level structure-informative DAG (corresponding to two disjoint scale-free subgraphs in the target DAG, respectively), and five non-informative DAG.    
 
 ## example.data.singleDAG.RData
-Some example data for layer-based single non-Gaussian DAG learning
+Some example data of a sparse hub DAG for layer-based single non-Gaussian DAG learning.
 The meaning of the parameters is similar to "target.DAG.data" in "example.data.DAG.RData".
 
 
